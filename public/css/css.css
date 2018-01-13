@@ -1,0 +1,30 @@
+.fo{
+    width: 60%;
+    margin: 10px auto;
+    padding: 50px;
+    background-color: rgba(102, 102, 99, 0.822);
+    border-radius: 50px;
+
+}
+.fo label{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-nav{
+    padding: 10px;
+    text-align: -webkit-center;
+    float: left;
+    width: 300px;
+
+}
+.text-center{
+	padding: 10px 0;
+}
+.d{
+	opacity: 1;
+}
+.s{
+	opacity: 0;
+}
