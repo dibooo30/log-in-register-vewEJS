@@ -1,5 +1,8 @@
 <% include share/pageheader.ejs %>
 
     <h1 >welcome to members area</h1>
-    
+    <% if ( expressFlash.length > 0 ) { %>
+        <div class="alert alert-success">Message: <%= expressFlash %> </div>
+      <% } %>
+
     <% include share/pagefooter.ejs %>
