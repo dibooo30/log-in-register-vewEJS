@@ -88,8 +88,7 @@ router.post('/register', upload.single('profileimg'), function(req, res, next) {
      name:name,
      username:username,
      email:email,
-     password:password,
-     password2:password2
+     password:password
    });
    User.createUser(newUser, function(err, user) {
      if(err) throw err;

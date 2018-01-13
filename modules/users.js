@@ -17,9 +17,6 @@ var userSchema = mongoose.Schema({
     password:{
         type:String
     },
-    password2:{
-        type:String
-    },
     porfileimg:{
         type:String
     },
